@@ -1,0 +1,8 @@
+{
+  "name": "FMWS SALES — Central Comercial Inteligente",
+  "description": "Central corporativa de prospecção B2B, análise de oportunidades com IA, funil comercial e integração Meta WhatsApp Cloud para Fazer Meu Website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

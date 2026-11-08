@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FMWS SALES — Central Comercial Inteligente</title>
+    <meta name="description" content="Central corporativa de prospecção B2B, análise de oportunidades com IA, funil comercial e integração Meta WhatsApp Cloud para Fazer Meu Website." />
+    <meta property="og:title" content="FMWS SALES — Central Comercial Inteligente" />
+    <meta property="og:description" content="Central corporativa de prospecção B2B, análise de oportunidades com IA, funil comercial e integração Meta WhatsApp Cloud para Fazer Meu Website." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cinzel:wght@600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script>
+      // In AI Studio Build preview environment, HMR is disabled.
+      // Ignore Vite client WebSocket connection errors as per environment instructions.
+      window.addEventListener('error', function(event) {
+        if (event && (event.message?.includes('WebSocket') || event.filename?.includes('@vite/client'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        var reason = event && event.reason && (event.reason.message || String(event.reason));
+        if (reason && (reason.includes('WebSocket') || reason.includes('@vite/client'))) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
